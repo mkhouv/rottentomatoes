@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rotten Tomatoes</title>
+  <link href="./assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+      <img class="tomato-corner" src="./assets/images/tomatocorner.png">
+      <img class="logo" src="./assets/images/rtlogo.png">
+    </div>
+    <div id="trending-bar">
+    </div>
+    <div id="title-bar">
+      <span id="movie-title"></span>
+      <span id="movie-year"></span>
+    </div>
+    <div class="columns">
+      <div class="poster">
+        <img id="poster-image">
+      </div>
+      <div class="tomatometer">
+        <div class="left-column">
+          <h3>TOMATOMETER</h3>
+          <div class="tab">
+            <span class="icon fresh"></span>
+            <span class="percent" id="tomato-percent"></span>
+          </div>
+          <div class="average">
+            <div>
+              <span class="gray" id="tomato-average">Average Rating: </span>
+            </div>
+            <div>
+              <span class="gray" id="tomato-review">Reviews Counted: </span>
+            </div>
+            <div class="audience">
+              <span class="gray" id="tomato-fresh">Fresh: </span>
+            </div>
+            <div class="audience">
+              <span class="gray" id="tomato-rotten">Rotten: </span>
+            </div>
+          </div>
+        </div>
+        <div class="middle-column">
+          <div class="progress">
+            <div style="width: 93%; height: 100%; background-color: #C91B22">
+            </div>
+          </div>
+          <div class="average">
+            <div class="critic">
+              <p class="black" id="consensus">
+                <span class="gray" id="tomato-critic">Critic Consensus: </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <h3>AUDIENCE SCORE</h3>
+          <div class="tab">
+            <span class="icon popcorn"></span>
+            <div style="display: table">
+              <span class="percent" id="audience-percent">83%</span>
+              <br />
+              <span class="liked">liked it</span>
+            </div>
+          </div>
+          <div class="average">
+            <div>
+              <span class="gray" id="audience-average">Average Rating: </span>
+            </div>
+            <div>
+              <span class="gray" id="audience-ratings">User Ratings: </span>
+            </div>
+          </div>
+        </div>
+        <div class="critic-column">
+          <div class="critic-consensus">
+            <p class="black" id="consensus-mobile">
+              <span class="gray">Critic Consensus: </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news" id="news-titlet">
+      <h2 class="headline">News and Headlines for <em>War on the Planet</em></h2>
+    </div>
+
+  <div class="articles-column" id="first-set">
+    <div class="articles">
+      <div class="article-container">
+        
+        <button class="CarouselButton CarouselButton__left"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style="fill: currentcolor; vertical-align: middle; width: 36px; height: 36px;"><g><path d="M15.41 7.41l-1.41-1.41-6 6 6 6 1.41-1.41-4.58-4.59z"></path></g></svg></button>
+      </div>
+    </div>
+    <div class="articles">
+      <div class="article-container">
+        
+      </div>
+    </div>
+    <div class="articles">
+      <div class="article-container">
+        
+        <button class="CarouselButton CarouselButton__right"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style="fill: currentcolor; vertical-align: middle; width: 36px; height: 36px;"><g><path d="M10 6l-1.41 1.41 4.58 4.59-4.58 4.59 1.41 1.41 6-6z"></path></g></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="articles-column" id="second-set">
+    <div class="articles">
+      <div class="article-container">
+        <button class="CarouselButton CarouselButton__left"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style="fill: currentcolor; vertical-align: middle; width: 36px; height: 36px;"><g><path d="M15.41 7.41l-1.41-1.41-6 6 6 6 1.41-1.41-4.58-4.59z"></path></g></svg></button>
+      </div>
+    </div>
+    <div class="articles">
+      <div class="article-container">
+      </div>
+    </div>
+    <div class="articles">
+      <div class="article-container">
+        <button class="CarouselButton CarouselButton__right"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style="fill: currentcolor; vertical-align: middle; width: 36px; height: 36px;"><g><path d="M10 6l-1.41 1.41 4.58 4.59-4.58 4.59 1.41 1.41 6-6z"></path></g></svg></button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
